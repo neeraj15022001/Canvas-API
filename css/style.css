@@ -1,22 +1,23 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #canvas {
-    border: 2px solid grey;
+  border: 2px solid grey;
 }
 .toolsContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: silver;
-    height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: silver;
+  height: 45px;
 }
 .toolsContainer > button {
-    padding: 5px;
+  padding: 5px;
 }
-.toolsContainer > select,button {
-    margin: 0px 10px;
+.toolsContainer > select,
+button {
+  margin: 0px 10px;
 }
