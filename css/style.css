@@ -7,3 +7,16 @@
 #canvas {
     border: 2px solid grey;
 }
+.toolsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: silver;
+    height: 45px;
+}
+.toolsContainer > button {
+    padding: 5px;
+}
+.toolsContainer > select,button {
+    margin: 0px 10px;
+}
